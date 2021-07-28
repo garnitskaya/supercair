@@ -1,0 +1,209 @@
+<!--Сообщаем браузеру как стоит обрабатывать эту страницу-->
+<!DOCTYPE html>
+<!--Оболочка документа указываем язык содержимого-->
+<html lang="ru">
+
+<!--заголовок страницы, контейнер для других важных данных (не отображается)-->
+
+<head>
+    <!--Кодировка страницы-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Заголовок сраницы в браузере-->
+    <title>SuperCrair</title>
+    <!-- привязываем файл css -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+
+
+<!--обображаемое тело страницы-->
+
+<body>
+    <header>
+        <div class="wrapper">
+            <nav>
+                <ul class="nav__list">
+                    <li>
+                        <a href="#">Доставка</a>
+                    </li>
+                    <li>
+                        <a href="#">Оплата</a>
+                    </li>
+                    <li>
+                        <a href="#">Отзывы</a>
+                    </li>
+                    <li>
+                        <a href="#">Вопрос - ответ</a>
+                    </li>
+                    <li>
+                        <a href="#">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="bg-white">
+            <div class="wrapper">
+                <div class="header-top">
+                    <div class="logo">
+                        <img class="logo__img" src="img/logo.svg" alt="">
+                        <span>BEAUTY</span>
+                    </div>
+                    <div class="header__info">
+                        <span>8 (812) 123-45-67</span>
+                        <button class="header__button button" type="button">Обратный звонок</button>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="wrapper">
+                <div class="header-bottom">
+                    <nav>
+                        <ul class="nav__list">
+                            <li>
+                                <a href="">Парикмахерская</a>
+                            </li>
+                            <li>
+                                <a href="">Барбершоп</a>
+                            </li>
+                            <li>
+                                <a href="">Маникюр</a>
+                            </li>
+                            <li>
+                                <a href="">Педикюр</a>
+                            </li>
+                            <li>
+                                <a href="">Массаж</a>
+                            </li>
+                            <li>
+                                <a href="">Мебель</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="wrapper">
+            <h1 class="banner__title">Супер кресло</h1>
+            <p class="banner__text">Текст акции всегда отражает суть, а не просто болтовню, поэтому внимательнее
+            </p>
+            <a class="banner__btn " href="#">Подробнее</a>
+        </div>
+    </section>
+
+    <section class="catalog">
+        <div class="wrapper">
+            <div class="catalog__block">
+                <h2 class="catalog__title">Специальные предложения</h2>
+                <img src="img/car.svg" alt="">
+            </div>
+            <div class="catalog__row">
+                <div class="card">
+                    <div class="card__item">
+                        <img src="img/chair.png" alt="">
+                        <p class="catalog__subtitle">Парикмахерское кресло «Норм» гидравлическое</p>
+                        <p class="catalog__price">9 900 ₽ </p>
+                        <a class="catalog__btn" href="#">Купить</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__item">
+                        <img src="img/chair.png" alt="">
+                        <p class="catalog__subtitle">Парикмахерское кресло «Норм» гидравлическое</p>
+                        <p class="catalog__price">9 900 ₽ </p>
+                        <a class="catalog__btn" href="#">Купить</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__item">
+                        <img src="img/chair.png" alt="">
+                        <p class="catalog__subtitle">Парикмахерское кресло «Норм» гидравлическое</p>
+                        <p class="catalog__price">9 900 ₽ </p>
+                        <a class="catalog__btn" href="#">Купить</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__item">
+                        <img src="img/chair.png" alt="">
+                        <p class="catalog__subtitle">Парикмахерское кресло «Норм» гидравлическое</p>
+                        <p class="catalog__price">9 900 ₽ </p>
+                        <a class="catalog__btn" href="#">Купить</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="">
+        <div class="wrapper">
+            <div class="info">
+                <div class="info__row">
+                    <div class="info__element">
+                        <div class="info__bonus">
+                            <h3 class="info__title">Получайте бонусы и подарки</h3>
+                            <p class="info__text">Каждый месяц разыгрываем <br> 10 000 рублей для наших клиентов</p>
+                            <input class="info__input" type="email" name="email" placeholder="Введите e-mail">
+                        </div>
+                        <img class="info__img" src="img/letter.svg" alt="">
+                    </div>
+                </div>
+                <div class="info__row">
+                    <div class="info__element">
+                        <div class="info__bonus">
+                            <h3 class="info__title">Заходите к нам</h3>
+                            <p class="info__text">Более 300 магазинов <br> по всей России</p>
+                            <a class="btn" href="#">Карта магазинов</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="bg-white">
+            <div class="wrapper">
+                <div class="footer__top">
+                    <div class="footer__top__item">
+                        <ul class="social">
+                            <li class="social__item">
+                                <a class="social-link social-youtube" href="#" target="_blank"></a>
+                            </li>
+                            <li class="social__item">
+                                <a class="social-link social-vk" href="#" target="_blank"></a>
+                            </li>
+                            <li class="social__item">
+                                <a class="social-link social-fb" href="#" target="_blank"></a>
+                            </li>
+                            <li class="social__item">
+                                <a class="social-link social-instagram" href="#" target="_blank"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__info">
+                        <span>198555, Невский пр. 140, офис 140</span>
+                        <span>8 (812) 123-45-67</span>
+                        <button class="footter__button button" type="button">Обратный звонок</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="wrapper">
+                <div class="footer__bootom">
+                    <p>Лучший магазин (с) 2019 Все права защищены. Интернет-магазин оборудования для салонов красоты</p>
+                    <span>Политика конфиденциальности</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
